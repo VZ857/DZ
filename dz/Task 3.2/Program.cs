@@ -5,7 +5,7 @@
 Console.WriteLine("Введите цыфру дня недели ");
     while(true)
     {
-int day = Convert.ToInt32(Console.ReadLine());
+int day = int.Parse(Console.ReadLine());
 if (day == 6 | day == 7) {
 
      Console.WriteLine("Это выходной день ");
